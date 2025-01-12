@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Portfolio Website</title>
+    <style>
+       
+        
+    </style>
+</head>
+
+<body>
+    <div id="main-content" class="slide-in">
+        <a href="#" class="logo">TEAM CC MEDIA</a>
+
+        <header>
+            <div class="header-content">
+                <nav>
+                    <a href="index.html" class="active">Home</a>
+                    <a href="#our-skills">Skills</a>
+                    <a href="#about">About Us</a>
+                    <a href="#showcase">Showcase</a>
+                    <a href="#pricing">Price</a>
+                    <a href="#contact">Contact</a>
+                  
+                </nav>
+            </div>
+        </header>
+
+        <section class="home">
+            <div class="home-img">
+                <img src="main.jpg.jpg" alt="Team CC Media">
+            </div>
+            <div class="home-content">
+                <h2>Hi, It's <span>TEAM CC MEDIA</span></h2>
+                <h3 class="typing-text">We are <span></span></h3>
+                <p>Welcome to our official portfolio. We specialize in delivering top-notch media services to help your brand stand out.</p>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@TEAMCCMEDIA"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/c_c_mediq?igsh=MTllN28ybzh3MzN5aQ=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="hire us .html" class="btn">Hire Us</a>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="our-skills">
+            <h2>Our Skills</h2>
+            <p>Meet our team of professional video editors who transform visions into reality with precision and creativity.</p>
+
+            <div class="skills-grid">
+                <!-- Skill Item 1 -->
+                <div class="skill-item">
+                    <h3>Precision Editing</h3>
+                    <p>Our editors excel in precision, ensuring every frame aligns perfectly to convey the story you want to tell.</p>
+                </div>
+
+                <!-- Skill Item 2 -->
+                <div class="skill-item">
+                    <h3>Creative Storytelling</h3>
+                    <p>We blend creativity with technical expertise to craft compelling narratives that captivate audiences.</p>
+                </div>
+
+                <!-- Skill Item 3 -->
+                <div class="skill-item">
+                    <h3>Advanced Techniques</h3>
+                    <p>Utilizing the latest software and advanced editing techniques, we deliver high-quality, cinematic experiences.</p>
+                </div>
+
+                <!-- Skill Item 4 -->
+                <div class="skill-item">
+                    <h3>Client-Centric Approach</h3>
+                    <p>Our team works closely with clients to understand their vision, ensuring the final product exceeds expectations.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At TEAM CC MEDIA, we are passionate about creating impactful visual stories that resonate with your audience. Our team of experts is dedicated to providing creative solutions tailored to your unique needs.</p>
+            <p>Team CC Media, a dedicated video editing agency based in India. With over three years of experience working with global clients, we specialize in transforming raw footage into engaging, impactful content that aligns with brand vision and resonates with audiences.
+
+                We have had the privilege of collaborating with a diverse range of industries, providing services such as:
+                
+                Dynamic social media content creation
+                
+                Promotional and marketing video editing
+                
+                Corporate storytelling and brand videos
+                
+                YouTube and podcast video enhancements
+                
+                At Team CC Media, our focus is on delivering:
+                
+                High-quality, polished videos that drive engagement
+                
+                Customized editing styles to match your unique brand identity
+                
+                Quick turnaround times without compromising on quality
+                
+                We believe your brand has immense potential for impactful storytelling through video, and we would love the opportunity to collaborate.</p>
+                   </section>
+        
+             <section class="showcase" id="showcase">
+                <h2 class="section-heading">Our <span class="highlight">Showcase</span></h2>
+                
+              <div class="section-content">
+                 
+                    <div class="project-grid">
+                        <!-- Horizontal video 1 -->
+                        <div class="project horizontal">
+                            <video class="about-video" muted autoplay loop controls>
+                                <source src="1ST CC VIDEO V2.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            
+                        </div>
+            
+                        <!-- Vertical video 2 -->
+                        <div class="project vertical">
+                            <video class="about-video" muted autoplay loop controls>
+                                <source src="GOMCHI M S03.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            
+                        </div>
+            
+                        <!-- Horizontal video 3 -->
+                        <div class="project horizontal">
+                            <video class="about-video" muted autoplay loop controls>
+                                <source src="SAMPLE H.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        
+                        </div>
+            
+                        <!-- Vertical video 4 -->
+                        <div class="project vertical">
+                            <video class="about-video" muted autoplay loop controls>
+                                <source src="AF_VERTICALV2.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            
+                        </div>
+                                   <!-- Horizontal video 3 -->
+                                   <!-- <div class="project horizontal">
+                                    <video class="about-video" muted autoplay loop controls>
+                                        <source src="BYTE FITNESS S02 FINAL 2.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>-->
+                                
+                                </div>
+                   </section>
+            
+            <script>
+            document.querySelectorAll('.about-video').forEach(video => {
+                // Set videos to loop, play them muted initially, and ensure they keep playing
+                video.loop = true;
+                video.muted = true;
+                video.play();
+            
+                // Unmute the video on mouseenter and ensure video continues playing
+                video.addEventListener('mouseenter', function() {
+                    video.muted = false;
+                });
+            
+                // Mute the video on mouseleave but keep it playing
+                video.addEventListener('mouseleave', function() {
+                    video.muted = true;
+                });
+            });
+            </script>
+
+<section id="pricing">
+    <h2 class="pricing "> Price <span class="highlight">Plans</span></h2>
+    <div class="pricing-container">
+      <div class="pricing-card">
+        <h3>Basic</h3>
+        <p>20USD-25USD Per Short</p>
+        <ul>
+          <li>Cutting</li>
+          <li>Adjusting</li>
+          <li>Music</li>
+          <li>Text</li>
+        </ul>
+        
+      </div>
+      <div class="pricing-card">
+        <h3>Standard</h3>
+        <p>35USD-45USD</p>
+        <ul>
+          <li>Cutting</li>
+          <li>Adjusting</li>
+          <li>Music</li>
+          <li>Colour Grading</li>
+          <li>2D-Animation</li>
+          <li>Text</li>
+        </ul>
+       
+      </div>
+      <div class="pricing-card">
+        <h3>Premium</h3>
+        <p>45USD-55USD</p>
+        <ul>
+            <li>Cutting</li>
+            <li>Adjusting</li>
+            <li>Music</li>
+            <li>Colour Grading</li>
+            <li>3D-Animation</li>
+            <li>Sound Design</li>
+            <li>Transitions etc</li>
+        </ul>
+     
+      </div>
+    </div>
+  </section>
+  
+        
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="contact"> 
+            <h2>Contact</h2>
+                   <div class="container">
+                  <form action="https://formsubmit.co/teamccmedia07@gmail.com" method="POST">
+                 <label for="name">Name:</label>
+                 <input type="text" id="name" name="name" required>
+ 
+                 <label for=" mobile number">Mobile Number:</label>
+                 <input type="number" id="number" name="number" required>
+ 
+                 <label for="email">Email:</label>
+                 <input type="email" id="email" name="email" required>
+ 
+                 <label for="message">Message:</label>
+                 <textarea id="message" name="message" rows="5" required></textarea>
+ 
+                 <button type="submit"> Submit</button>  
+                 </form>
+
+    
+                  
+
+
+     <footer class="footer"></footer>
+     <p class="copyright">@TEAM CC MEDIA  | All Right Reserved</p>
+    </footer>
+    
+         </section>
+            
+
+        </section>
+
+    </div>
+
+    <script>
+        document.querySelectorAll("nav a").forEach(link => {
+            link.addEventListener("click", function (e) {
+                const href = this.getAttribute("href");
+                if (href.startsWith("#")) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({ behavior: "smooth" });
+                    }
+                } else {
+                    e.preventDefault();
+                    const mainContent = document.getElementById("main-content");
+
+                    // Apply slide-out animation
+                    mainContent.classList.add("slide-out");
+
+                    // Wait for animation to complete before navigating
+                    setTimeout(() => {
+                        window.location.href = href;
+                    }, 500); // Adjust timeout to match animation duration
+                }
+            });
+        });
+    </script>
+     
+</body>
+
+</html>
