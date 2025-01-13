@@ -518,7 +518,7 @@ form button:hover {
     font-size: 3em; /* Same font size for About Us and Showcase headings */
     margin-bottom: 20px;
 }
-#pricing h2{
+ #pricing h2, h4{
    font-size: 3.2rem;
 }
 
